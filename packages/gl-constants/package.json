@@ -1,9 +1,30 @@
 {
   "name": "@mundus/gl-constants",
   "version": "0.1.0",
-  "type": "module",
-  "module": "index.mjs",
+  "main": "index.cjs",
+  "module": "index.js",
   "source": "index.ts",
+  "type": "module",
+  "exports": {
+    ".": {
+      "import": "./index.js",
+      "require": "./index.cjs",
+      "source": "./index.ts"
+    },
+    "./index": {
+      "import": "./index.js",
+      "require": "./index.cjs",
+      "source": "./index.ts"
+    },
+    "./index.js": {
+      "import": "./index.js",
+      "require": "./index.cjs",
+      "source": "./index.ts"
+    },
+    "./index.ts": "./index.ts",
+    "./index.cjs": "./index.cjs",
+    "./package.json": "./package.json"
+  },
   "sideEffects": false,
   "description": "All webgl2 constants in a tree shakeable package",
   "keywords": [

@@ -1,3 +1,11 @@
+packages/gl-constants/*.js
+packages/gl-constants/*.cjs
+packages/gl-constants/*.d.ts
+
+packages/keycodes/*.js
+packages/keycodes/*.cjs
+packages/keycodes/*.d.ts
+
 # dotfiles
 
 !.*.js

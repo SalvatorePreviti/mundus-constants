@@ -1,3 +1,13 @@
+packages/gl-constants/*.js
+packages/gl-constants/*.cjs
+packages/gl-constants/*.d.ts
+packages/gl-constants/*.map
+
+packages/keycodes/*.js
+packages/keycodes/*.cjs
+packages/keycodes/*.d.ts
+packages/keycodes/*.map
+
 # excluded files for security
 .npmrc
 .env

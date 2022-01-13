@@ -4,7 +4,7 @@
   "description": "All webgl2 constants in a tree shakeable package",
   "main": "index.js",
   "scripts": {
-    "build": "node -r @swc-node/register codegen/build.ts",
+    "build": "node -r @swc-node/register scripts/build.ts",
     "test": "echo \"Error: no test specified\" && exit 1",
     "precommit": "lint-staged && pretty-quick --staged"
   },
