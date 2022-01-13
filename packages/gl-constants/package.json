@@ -39,7 +39,8 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/SalvatorePreviti/mundus-constants.git"
+    "url": "git+https://github.com/SalvatorePreviti/mundus-constants.git",
+    "directory": "packages/gl-constants"
   },
   "license": "MIT",
   "author": "Salvatore Previti"

@@ -10,11 +10,12 @@
     "mundus"
   ],
   "bugs": {
-    "url": "https://github.com/SalvatorePreviti/mundus/issues"
+    "url": "https://github.com/SalvatorePreviti/mundus-constants/issues"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/SalvatorePreviti/mundus.git"
+    "url": "git+https://github.com/SalvatorePreviti/mundus.git",
+    "directory": "packages/keycodes"
   },
   "license": "MIT",
   "author": "Salvatore Previti"
